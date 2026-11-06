@@ -1,0 +1,16 @@
+================================================================================
+START-HINWEIS: OPERATION SKYNET DETEKTIV
+================================================================================
+Der T-1000 hat das System infiltriert. Wir müssen die Connors vor ihm finden!
+
+DEIN ERSTES ZIEL: Finde Sarah Connor.
+Es gibt hunderte Frauen mit diesem Namen im Einwohneramt. Wir wissen aber:
+1. Die gesuchte Sarah hat exakt EIN Kind (John) und ist alleinstehend.
+2. Sie wurde in eine geschlossene Psychiatrie eingewiesen.
+
+ANLEITUNG:
+- Durchsuche 'behoerden/einwohneramt_la.txt' nach den Kriterien (Kind, Familienstand).
+- Gleiche das Ergebnis mit 'behoerden/kliniken_kalifornien.txt' ab (Schnittmenge!).
+- Nutze 'cut', 'sort' und 'uniq -d', um die richtige Klinik-ID zu finden.
+- Gehe dann in das Archiv dieser Klinik und lies ihre Akte 'interview_logs.txt'.
+================================================================================

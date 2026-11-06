@@ -1,0 +1,17 @@
+Dr. Silberman: Patientin zeigt Wahnvorstellungen bezüglich einer nuklearen Apokalypse.
+Sarah Connor: Sie sind verdammt noch mal alle tot! Am 29. August 1997 geht die Welt unter!
+Dr. Silberman: Notiz: Patientin sorgt sich um ihren Sohn John, der untergetaucht ist.
+
+================================================================================
+HINWEISBLATT 2: DER SOHN (Wird freigeschaltet, weil du Sarahs Akte gefunden hast)
+================================================================================
+John Connor ist untergetaucht und knackt Geldautomaten, um zu überleben.
+Wir müssen herausfinden, was für ein Fluchtfahrzeug er fährt, um ihn abzufangen.
+
+ANLEITUNG:
+1. Wechsle in den Ordner 'lapd_and_schools'.
+2. Nutze 'cut -d "," -f 3' auf die 'atm_hacks.csv', um die Namen der Hacker zu isolieren.
+3. Suche diesen Namen in den Schulakten ('school_records.txt'), um sicherzugehen.
+4. Schau mit 'grep' in der 'motorcycle_registry.db' nach, welches Fahrzeug auf 
+   seinen Namen registriert ist. Das Kennzeichen ist der Code für das Cyberdyne-Labor!
+================================================================================
